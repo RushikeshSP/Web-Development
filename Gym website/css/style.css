@@ -1,0 +1,107 @@
+/* CSS Reset */
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+.left img {
+    width: 120px;
+    height: 60px;
+}
+
+.left div {
+    /* line-height: 0px; */
+    font-size: 18px;
+    text-align: center;
+    background-color: #343434;
+    color: #00f3ff;
+
+}
+
+.mid {
+    display: block;
+    width: 55%;
+    /* margin: 20px auto; */
+    margin: 20px 250px;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 34px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(89, 88, 122);
+    color: rgb(255, 0, 200);
+}
+
+.container {
+    /* border: 2px solid red; */
+    margin: 45px 70px;
+    padding: 10px 100px;
+    border-radius: 219px;
+    width: 47%;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 40px;
+    color: hotpink;
+}
+
+.container button {
+    display: block;
+    width: 130px;
+    margin: 62px auto;
+    padding: 11px;
+    font-size: 30px;
+}
